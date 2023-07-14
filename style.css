@@ -1,0 +1,50 @@
+#modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.208);
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-body {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin: 10px;
+}
+
+
+/* ! гонки */
+#game {
+    border: 2px, solid black;
+    width: 1000px;
+    margin: 10px;
+
+}
+
+#car-1 {
+    width: 150px;
+    height: 80px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#car-2 {
+    width: 150px;
+    height: 80px;
+    background-color: green;
+}
+
